@@ -1,5 +1,7 @@
-# EWLRS
-data = read.csv("EWLRS.Data-3.csv", header = TRUE)
+data = read.csv("EWLRS.Data-4.csv", header = TRUE)
+head(data)
+# Need to figure out a way to keep the Student.ID variable without
+# transformation of the Student.ID variable either
 data = scale(data)
 head(data)
 # data.1 is creating a mean of the variables
